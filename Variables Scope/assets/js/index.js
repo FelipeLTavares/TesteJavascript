@@ -1,7 +1,7 @@
 // 1.2
 const mostrarExplicacao = () => {
   console.log(
-    "As palavras reservadas 'var', let e 'const' são usadas no Javascript para declarar variáveis. Enquanto a questão de escopo 'const' e let tem 'escopo de bloco' ou seja, elas só podem ser acessadas dentro do bloco onde foram definidas, diferente do 'var' que pode ter escopo global ou de função, o que significa que se for declarada dentro de uma função seu escopo se limitará aquela função e se for declarada fora de qualquer função poderá ser acessada globalmente."
+    "As palavras reservadas 'var', 'let' e 'const' são utilizadas no JavaScript para declarar variáveis. Enquanto 'const' e 'let' possuem escopo de bloco, ou seja, só podem ser acessadas dentro do bloco onde foram definidas, 'var' pode ter escopo global ou de função. Isso implica que se 'var' for declarada dentro de uma função, seu escopo será limitado a essa função; se for declarada fora de qualquer função, poderá ser acessada globalmente."
   );
 };
 
